@@ -1,6 +1,6 @@
 # Resume
 
-[![resume format](https://img.shields.io/badge/format-json resume-fff18f?style=for-the-badge)](https://jsonresume.org)
+[![json resume badge](https://img.shields.io/badge/format-json_resume-fff18f?style=for-the-badge)](https://jsonresume.org)
 
 My resume
 
