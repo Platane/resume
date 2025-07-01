@@ -97,7 +97,10 @@
 - <img width="16px" height="16px" src="https://www.wanadevdigital.fr/build/pictures/favicon/favicon-32x32.webp" alt="Wanadev.fr logo" /> **Wanadev.fr**
   Lyon, FR _04/2014 - 10/2014_
   
-  Wanadev edit a web app for home planning. It use WebGL to offer a rich 3d experience. I worked on the 3d object configurator as well as another 3d related features.
+  Wanadev edit a web app for home planning. It use WebGL to offer a rich 3d experience.
+  - Implemented new 3d elements
+  - Wrote a furniture 3d configurator
+  - Contributed to the public API doc and examples
  
   _Three.js, Babylon.json, TypeScript_
  
