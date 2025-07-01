@@ -109,7 +109,7 @@
 			"endDate": "2018-07-31",
 			"highlights": [],
 			"summary": "I worked as a freelancer on short term projects ( 1 to 2 months )",
-			"location": "Paris, FR",
+			"url": "https://platane.me",
 			"skills": ["React.js", "Angular.js", "Typescript"]
 		},
 		{
@@ -133,10 +133,10 @@
 			"endDate": "2017-02-28",
 			"highlights": [
 				"Wrote services to handled high volume of live update",
-				"Interfaced with various music providers",
-				"Set up reliable deployment pipeline"
+				"Interfaced with various music providers (youtube, deezer, soundcloud, …)",
+				"Set up a reliable deployment pipeline"
 			],
-			"summary": "Tracktl is a social jukebox app. I worked as tech lead in this lovely Parisian startup.\n\nKey challenges were:\nhigh volume live update; interfacing with various music providers; reliable deployment pipeline",
+			"summary": "Tracktl is a social jukebox app. I worked as tech lead in this lovely Parisian startup",
 			"url": "https://tracktl.com",
 			"location": "Paris, FR",
 			"skills": [
@@ -152,8 +152,9 @@
 			"startDate": "2014-11-01",
 			"endDate": "2015-01-31",
 			"highlights": [],
-			"summary": "Hola provide a browser extension to play video over p2p network.\nI worked on this extension, and on the landing page.",
+			"summary": "Hola provide a browser extension to play video over p2p network. I worked on this extension, and on the landing page.",
 			"url": "https://hola.org",
+			"location": "Netanya, IL",
 			"skills": ["TypeScript"]
 		},
 		{
@@ -161,9 +162,14 @@
 			"position": "3d Developer",
 			"startDate": "2014-04-01",
 			"endDate": "2014-10-31",
-			"highlights": [],
-			"summary": "Wanadev edit a web app for home planning. It use WebGL to offer a rich 3d experience. I worked on the 3d object configurator as well as another 3d related features.",
+			"highlights": [
+				"Implemented new 3d elements",
+				"Wrote a furniture 3d configurator",
+				"Contributed to the public API doc and examples"
+			],
+			"summary": "Wanadev edit a web app for home planning. It use WebGL to offer a rich 3d experience.",
 			"url": "https://www.wanadevdigital.fr",
+			"location": "Lyon, FR",
 			"skills": ["Three.js", "Babylon.json", "TypeScript"]
 		}
 	],

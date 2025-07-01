@@ -48,6 +48,7 @@ export const generateMarkdown = async () => {
 
 	const md = [
 		`# ${resume.basics.name}`,
+		"",
 		[
 			mdUrl(resume.basics.url),
 			...resume.basics.profiles.flatMap((p) => mdUrl(p.url)),
@@ -64,8 +65,8 @@ export const generateMarkdown = async () => {
 			//
 			"- " +
 				(logos[i]
-					? `<img width="32px" height="32px" src="${logos[i]}" alt="${w.name} logo" />`
-					: '<img width="32px" height="32px" />') +
+					? `<img width="16px" height="16px" src="${logos[i]}" alt="${w.name} logo" />`
+					: "") +
 				` **${w.name}**`,
 
 			"  " +
@@ -87,8 +88,8 @@ export const generateMarkdown = async () => {
 		...resume.education.flatMap((e, i) => [
 			"- " +
 				(logos[resume.work.length + i]
-					? `<img width="32px" height="32px" src="${logos[resume.work.length + i]}" alt="${e.institution} logo" />`
-					: '<img width="32px" height="32px" />') +
+					? `<img width="16px" height="16px" src="${logos[resume.work.length + i]}" alt="${e.institution} logo" />`
+					: "") +
 				` **${e.institution}**` +
 				` _${new Date(e.startDate).getFullYear()} - ${new Date(e.endDate).getFullYear()}_`,
 
