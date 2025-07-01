@@ -59,6 +59,7 @@ export const generateMarkdown = async () => {
 		"",
 		"---",
 		"",
+
 		`# Work`,
 		"",
 		...resume.work.flatMap((w, i) => [
@@ -74,17 +75,17 @@ export const generateMarkdown = async () => {
 				`_${dateFmt(w.startDate)} - ` +
 				(w.endDate ? dateFmt(w.endDate) : "present") +
 				"_",
-			"  ",
+			"",
 			"  " + (w.summary ?? ""),
 			...w.highlights.flatMap((h) => "  - " + h),
-			" ",
+			"",
 			w.skills ? "  _" + w.skills.join(", ") + "_" : " ",
-			" ",
-			" ",
+			"",
 		]),
 		"",
 
 		"# Education",
+		"",
 		...resume.education.flatMap((e, i) => [
 			"- " +
 				(logos[resume.work.length + i]
@@ -93,32 +94,30 @@ export const generateMarkdown = async () => {
 				` **${e.institution}**` +
 				` _${new Date(e.startDate).getFullYear()} - ${new Date(e.endDate).getFullYear()}_`,
 
-			"  ",
+			"",
 			`  ${e.studyType} | ${e.area}`,
 
-			"  ",
 			"",
-			"  ",
 		]),
 
 		"# Projects",
+		"",
 		...resume.projects.flatMap((p) => [
-			`- **${p.name}** ` + (p.url ? ` [${urlFmt(p.url)}](${p.url})` : ""),
-			"  ",
+			`- **${p.name}**` + (p.url ? ` [${urlFmt(p.url)}](${p.url})` : ""),
+			"",
 			`  ${p.summary}`,
-			" ",
+			"",
 			p.skills ? "  _" + p.skills.join(", ") + "_" : " ",
 
-			"  ",
 			"",
-			"  ",
 		]),
 
 		"# Languages",
+		"",
 		...resume.languages.flatMap((l) => [
 			`- **${l.language}** ${l.fluency}`,
 
-			"  ",
+			"",
 		]),
 	].join("\n");
 

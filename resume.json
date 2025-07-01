@@ -34,7 +34,7 @@
 				"Added several key features to the floor plan editor",
 				"Designed the state machine responsible for syncing the floor plan with our database as the user draws"
 			],
-			"summary": "Rayon.design is an app to craft floor plan with precision ",
+			"summary": "Rayon.design is an app to craft floor plan with precision",
 			"url": "https://rayon.design",
 			"location": "Paris, FR",
 			"skills": [
@@ -60,7 +60,7 @@
 				"360 video experiences",
 				"Scroll based interactive experiences mixing 3d and video"
 			],
-			"summary": "Worked on several web project ( AR / 3d ..  ) aiming to offer interactive experiences in new articles",
+			"summary": "Worked on several web project ( AR / 3d … ) aiming to offer interactive experiences in new articles",
 			"url": "https://yahoo.com",
 			"skills": ["Three.js", "8thwall", "TypeScript", "Augmented Reality (AR)"]
 		},
