@@ -1,4 +1,4 @@
-# Arthur Brongniart
+# Arthur Brongniart | Web developer
 
 [platane.me](https://platane.me) · [linkedin.com/in/arthur-brongniart-ab802b65](https://linkedin.com/in/arthur-brongniart-ab802b65) · [github.com/Platane](https://github.com/Platane) · [arthur@brongniart.me](mailto:arthur@brongniart.me)
 

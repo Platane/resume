@@ -1,0 +1,9 @@
+{
+	"name": "@platane/resume",
+	"devDependencies": {
+		"@types/bun": "1.2.14",
+		"typescript": "5.8.3",
+		"react": "19.1.0",
+		"react-dom": "19.1.0"
+	}
+}

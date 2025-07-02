@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Arthur Brongniart",
-		"label": "gifted web developer",
+		"label": "Web developer",
 		"image": "https://github.com/Platane/Platane.github.io/blob/master/public/assets/img/avatar-flat.png?raw=true",
 		"email": "arthur@brongniart.me",
 		"url": "https://platane.me",
@@ -184,7 +184,7 @@
 		},
 		{
 			"institution": "lycée Henry Wallon Valenciennes",
-			"area": "Mathematics and Computer Science (MPSI)",
+			"area": "Mathematics and Computer Science (MP)",
 			"studyType": "Classe Préparatoire",
 			"startDate": "2009-09-01",
 			"endDate": "2011-07-01",

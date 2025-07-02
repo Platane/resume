@@ -7,8 +7,17 @@ My resume
 - [resume.json](./resume.json)
 - [resume.md](./resume.md)
 
+
+# Usage
+
 ```sh
 
 # generate md file
-bun --print "require('./generate.ts').generateMarkdown()" > resume.md
+bun --print "require('./src/generateMarkdown.ts').generateMarkdown()" > resume.md
+
+# generate html file
+bun --print "require('./src/generateHtml.tsx').generateHtml()" > dist/resume.html
+
+bunx nodemon --exec 'bun --print "require(\"./src/generateHtml.tsx\").generateHtml()" > dist/resume.html' -e tx,tsx,css
+
 ```

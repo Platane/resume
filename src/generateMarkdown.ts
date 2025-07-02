@@ -1,9 +1,9 @@
-import resume from "./resume.json";
+import resume from "../resume.json";
 
 /**
  * get the url to the website icon
  */
-const getWebsiteIcon = async (url: string) => {
+export const getWebsiteIcon = async (url: string) => {
 	const html = await fetch(url).then((res) => res.text());
 	const iconUrls = [...html.matchAll(/<link[^>]*>/g)]
 		.filter(([l]) => l.match(/rel="([^"]+)"/)?.[1].includes("icon"))
@@ -27,11 +27,16 @@ const getWebsiteIcon = async (url: string) => {
 /**
  * generate and return the resume in markdown format
  */
-export const generateMarkdown = async () => {
+export const generateMarkdown = async ({
+	displayLogo = false,
+}: {
+	displayLogo?: boolean;
+} = {}) => {
 	const logos = await Promise.all([
 		...resume.work.map((w) => w.url && getWebsiteIcon(w.url)),
 		...resume.education.map((w) => w.url && getWebsiteIcon(w.url)),
 	]);
+	if (!displayLogo) logos.length = 0;
 
 	const dateFmt = (s: string) => {
 		const d = new Date(s);
@@ -47,7 +52,7 @@ export const generateMarkdown = async () => {
 	const mdUrl = (url: string) => `[${urlFmt(url)}](${url})`;
 
 	const md = [
-		`# ${resume.basics.name}`,
+		`# ${resume.basics.name} | ${resume.basics.label}`,
 		"",
 		[
 			mdUrl(resume.basics.url),
