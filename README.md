@@ -18,6 +18,6 @@ bun --print "require('./src/generateMarkdown.ts').generateMarkdown()" > resume.m
 # generate html file
 bun --print "require('./src/generateHtml.tsx').generateHtml()" > dist/resume.html
 
-bunx nodemon --exec 'bun --print "require(\"./src/generateHtml.tsx\").generateHtml()" > dist/resume.html' -e tx,tsx,css
+bunx nodemon --exec 'bun --print "require(\"./src/generateHtml.tsx\").generateHtml()" > dist/resume.html' -e tx,tsx,css,json
 
 ```

@@ -14,12 +14,11 @@ export const generateHtml = async () => {
 	});
 	const cssContent = await res.outputs[0].text();
 
-	// const logos = await Promise.all(
-	// 	[...resume.work.map((w) => w.url), ...resume.education.map((w) => w.url)]
-	// 		.filter((url) => url !== undefined)
-	// 		.map(async (url) => [url, await getWebsiteIcon(url)]),
-	// ).then(Object.fromEntries);
-	const logos = {};
+	const logos = await Promise.all(
+		[...resume.work.map((w) => w.url), ...resume.education.map((w) => w.url)]
+			.filter((url) => url !== undefined)
+			.map(async (url) => [url, await getWebsiteIcon(url)]),
+	).then(Object.fromEntries);
 
 	const resumeContent = renderToString(
 		<Resume resume={resume} logos={logos} />,
@@ -80,8 +79,6 @@ const Resume = ({
 				{" · "}
 				<ShortUrl href={resume.basics.profiles[0].url} />
 				{" · "}
-				<ShortUrl href={resume.basics.profiles[1].url} />
-				{" · "}
 				<a href={`mailto:${resume.basics.email}`}>{resume.basics.email}</a>
 			</address>
 			<blockquote>{resume.basics.summary}</blockquote>
@@ -96,7 +93,7 @@ const Resume = ({
 							{logos[w.url] && (
 								<img className="logo" alt="logo" src={logos[w.url]} />
 							)}
-							<h3>{w.name}</h3> {w.location && <adress>{w.location}</adress>}
+							<h3>{w.name}</h3> {w.location && <address>{w.location}</address>}
 							<span className="date">
 								{" "}
 								{dateFmt(w.startDate)} -{" "}

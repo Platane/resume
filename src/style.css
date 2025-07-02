@@ -1,6 +1,7 @@
 html {
 	margin: 0;
-	font-family: "Computer Modern Sans", sans-serif;
+	/* font-family: "Computer Modern Sans", sans-serif; */
+	font-family: "Liberation Sans", sans-serif;
 }
 
 body {
@@ -30,14 +31,27 @@ section {
 	}
 	margin: 8px 0;
 }
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	gap: 16px;
+	* {
+		display: inline-block;
+	}
 
-.date {
-	font-family: "Courier New", Courier, monospace;
+	> address {
+		font-size: 0.9em;
+	}
+	.date {
+		font-family: "Courier New", Courier, monospace;
+		font-size: 0.9em;
+	}
 }
 
 img.logo {
-	width: 20px;
-	height: 20px;
+	width: 16px;
+	height: 16px;
 	filter: grayscale(0.6);
 	border-radius: 2px;
 }
@@ -54,6 +68,8 @@ ul {
 }
 
 ul.tag-list {
+	padding: 2px 0;
+	padding-top: 4px;
 	padding-inline-start: 0;
 	display: flex;
 	flex-direction: row;
