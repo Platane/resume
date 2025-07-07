@@ -1,6 +1,6 @@
 # Arthur Brongniart | Web developer
 
-[platane.me](https://platane.me) · [github.com/Platane](https://github.com/Platane) · [linkedin.com/in/arthur-brongniart-ab802b65](https://linkedin.com/in/arthur-brongniart-ab802b65) · [arthur@brongniart.me](mailto:arthur@brongniart.me)
+[platane.me](https://platane.me) · [github.com/platane](https://github.com/platane) · [linkedin.com/in/arthur-brongniart-ab802b65](https://linkedin.com/in/arthur-brongniart-ab802b65) · [arthur@brongniart.me](mailto:arthur@brongniart.me)
 
 > I do cool things on the web.
 
@@ -21,7 +21,7 @@
 -  **Yahoo**
   _01/2020 - 05/2022_
 
-  Worked on several web projects ( AR / 3d … ) aiming to offer interactive experiences in news articles
+  Worked on several web projects (AR / 3d …) aiming to offer interactive experiences in news articles
   - Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language
   - Implemented web based editor to allow authors to craft 3d / AR experiences for the viewer
   - Wrote scroll based interactive experiences mixing 3d and video
@@ -34,7 +34,7 @@
   Accountable allows to do accounting from your phone. With access to your bank account and a receipt OCR, reconciliation is fully automated
   - Designed and implemented a service to reliably interface with various bank account API
   - Prototyped a desktop version of the app
-  - Set up tools and practices to improve code quality and reliability ( CI / CD, typing, linting, integration testing )
+  - Set up tools and practices to improve code quality and reliability (CI / CD, typing, linting, integration testing)
 
   _React Native, Typescript_
 

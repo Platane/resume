@@ -14,7 +14,7 @@
 			{
 				"network": "Github",
 				"username": "Platane",
-				"url": "https://github.com/Platane"
+				"url": "https://github.com/platane"
 			},
 			{
 				"network": "LinkedIn",
@@ -52,7 +52,7 @@
 			"position": "3d Software Engineer",
 			"startDate": "2020-01-01",
 			"endDate": "2022-05-31",
-			"summary": "Worked on several web projects ( AR / 3d … ) aiming to offer interactive experiences in news articles",
+			"summary": "Worked on several web projects (AR / 3d …) aiming to offer interactive experiences in news articles",
 			"highlights": [
 				"Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language",
 				"Implemented web based editor to allow authors to craft 3d / AR experiences for the viewer",
@@ -70,7 +70,7 @@
 			"highlights": [
 				"Designed and implemented a service to reliably interface with various bank account API",
 				"Prototyped a desktop version of the app",
-				"Set up tools and practices to improve code quality and reliability ( CI / CD, typing, linting, integration testing )"
+				"Set up tools and practices to improve code quality and reliability (CI / CD, typing, linting, integration testing)"
 			],
 			"url": "https://accountable.eu",
 			"location": "Brussels, BE",
