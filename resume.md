@@ -116,7 +116,7 @@
 
   _WebGL, Typescript_
 
-- **Timezone.rock** [timezone.rock](https://timezone.rock)
+- **Timezone.rocks** [timezone.rocks](https://timezone.rocks)
 
   Visualize different timezones around the globe. Helps to plan meeting where everyone is awake.
 

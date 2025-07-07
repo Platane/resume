@@ -253,9 +253,9 @@
 			]
 		},
 		{
-			"name": "Timezone.rock",
+			"name": "Timezone.rocks",
 			"summary": "Visualize different timezones around the globe. Helps to plan meeting where everyone is awake.",
-			"url": "https://timezone.rock",
+			"url": "https://timezone.rocks",
 			"skills": ["React.js", "React-Three-Fiber", "Three.js", "Typescript"],
 			"medias": [
 				{
