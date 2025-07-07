@@ -29,7 +29,7 @@
 			"position": "Senior Software Engineer",
 			"startDate": "2022-04-01",
 			"endDate": "2024-06-30",
-			"summary": "Rayon.design is an app to craft floor plan with precision",
+			"summary": "Rayon.design is an app to craft floor plan with precision in the browser",
 			"highlights": [
 				"Developed and iterated on the team management part of the app",
 				"Added several key features to the floor plan editor",
@@ -40,7 +40,7 @@
 			"skills": [
 				"React.js",
 				"Typescript",
-				"Rust",
+				"Rust Wasm",
 				"Apollo GraphQL",
 				"Github Action",
 				"Next.js",
@@ -52,21 +52,21 @@
 			"position": "3d Software Engineer",
 			"startDate": "2020-01-01",
 			"endDate": "2022-05-31",
+			"summary": "Worked on several web projects ( AR / 3d … ) aiming to offer interactive experiences in news articles",
 			"highlights": [
-				"Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language to create various interactive experiences",
-				"Web based editor to allow author to craft 3d / AR experiences for the viewer",
-				"Scroll based interactive experiences mixing 3d and video"
+				"Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language",
+				"Implemented web based editor to allow authors to craft 3d / AR experiences for the viewer",
+				"Wrote scroll based interactive experiences mixing 3d and video"
 			],
-			"summary": "Worked on several web project ( AR / 3d … ) aiming to offer interactive experiences in new articles",
 			"url": "https://yahoo.com",
-			"skills": ["Three.js", "8thwall", "TypeScript", "Augmented Reality (AR)"]
+			"skills": ["Three.js", "8thWall", "TypeScript", "Augmented Reality (AR)"]
 		},
 		{
 			"name": "Accountable.eu",
 			"position": "Full Stack Developer",
 			"startDate": "2019-03-01",
 			"endDate": "2019-06-30",
-			"summary": "Accountable allows you to do your accounting from your phone. With access to your bank account and receipt OCR, reconciliation is fully automated",
+			"summary": "Accountable allows to do accounting from your phone. With access to your bank account and a receipt OCR, reconciliation is fully automated",
 			"highlights": [
 				"Designed and implemented a service to reliably interface with various bank account API",
 				"Prototyped a desktop version of the app",
@@ -81,12 +81,12 @@
 			"position": "Software Engineering Contractor",
 			"startDate": "2018-08-01",
 			"endDate": "2019-02-28",
+			"summary": "Worked on the customer browsing experience of a big e-commerce website",
 			"highlights": [
-				"Participated to architecture decision, re-thinking the website with cutting edge technologies. With a big emphasis on SEO",
+				"Participated to architecture decisions, re-thinking the website with cutting edge technologies",
 				"Set up a reliable deployment pipeline",
 				"Conducted workshop and presentation to share the knowledge across an international team"
 			],
-			"summary": "Worked on the customer browsing experience of a big e-commerce website",
 			"url": "https://dunelm.com",
 			"location": "London, UK",
 			"skills": [
@@ -113,12 +113,11 @@
 			"position": "App Developer",
 			"startDate": "2017-06-01",
 			"endDate": "2017-10-31",
+			"summary": "Mushin edits a web app to create moodboards",
 			"highlights": [
-				"Implemented a drawing canvas with rich interactions (drag-n-drop, resizing, smart cropping, snapping to a grid, and so on)",
-				"Solved image generation issues on client-side (especially regarding image downsizing quality)",
-				"Worked remotely on a flexible-yet-intensive schedule"
+				"Implemented a drawing canvas with rich interactions (drag-n-drop, resizing, smart cropping, snapping, …)",
+				"Solved image generation issues on client-side (regarding image downsizing quality)"
 			],
-			"summary": "",
 			"url": "https://MyMushin.com",
 			"skills": ["React.js", "Typescript", "HTML Canvas"]
 		},
@@ -127,12 +126,12 @@
 			"position": "Lead Developer",
 			"startDate": "2015-04-01",
 			"endDate": "2017-02-28",
+			"summary": "Tracktl is a social jukebox app",
 			"highlights": [
 				"Wrote services to handled high volume of live update",
 				"Interfaced with various music providers (youtube, deezer, soundcloud, …)",
 				"Set up a reliable deployment pipeline"
 			],
-			"summary": "Tracktl is a social jukebox app. I worked as tech lead in this lovely Parisian startup",
 			"url": "https://tracktl.com",
 			"location": "Paris, FR",
 			"skills": [
@@ -147,8 +146,8 @@
 			"position": "r&d",
 			"startDate": "2014-11-01",
 			"endDate": "2015-01-31",
+			"summary": "Hola provides a browser extension to play video over p2p network. I worked on this extension and on the landing page.",
 			"highlights": [],
-			"summary": "Hola provide a browser extension to play video over p2p network. I worked on this extension, and on the landing page.",
 			"url": "https://hola.org",
 			"location": "Netanya, IL",
 			"skills": ["TypeScript"]
@@ -158,15 +157,15 @@
 			"position": "3d Developer",
 			"startDate": "2014-04-01",
 			"endDate": "2014-10-31",
+			"summary": "Wanadev edits a web app for home planning in both 2d and 3d",
 			"highlights": [
 				"Implemented new 3d elements",
 				"Wrote a furniture 3d configurator",
-				"Contributed to the public API doc and examples"
+				"Contributed to the public API documentation and examples"
 			],
-			"summary": "Wanadev edit a web app for home planning. It use WebGL to offer a rich 3d experience.",
 			"url": "https://www.wanadevdigital.fr",
 			"location": "Lyon, FR",
-			"skills": ["Three.js", "Babylon.json", "TypeScript"]
+			"skills": ["Three.js", "Babylon.js", "TypeScript"]
 		}
 	],
 	"education": [
@@ -185,6 +184,37 @@
 			"startDate": "2009-09-01",
 			"endDate": "2011-07-01",
 			"url": "https://lyceehenriwallon-valenciennes.fr/classes-prepas"
+		}
+	],
+	"skills": [
+		{
+			"name": "Web Development",
+			"keywords": [
+				"Typescript",
+				"React.js",
+				"Rust Wasm",
+				"css in js",
+				"tailwind",
+				"vite"
+			]
+		},
+		{
+			"name": "3D Development",
+			"keywords": ["AR / VR", "WebGL", "three.js", "WebXR", "8thWall"]
+		},
+		{
+			"name": "Backend",
+			"keywords": ["Node", "GraphQL", "AWS", "SQL"]
+		},
+		{
+			"name": "Operation",
+			"keywords": [
+				"Github Action",
+				"Playwright",
+				"Continuous Deployment",
+				"Terraform",
+				"Jenkins"
+			]
 		}
 	],
 	"languages": [
@@ -241,7 +271,7 @@
 			"skills": [
 				"Augmented Reality (AR)",
 				"WebXR",
-				"8thwall",
+				"8thWall",
 				"React-Three-Fiber",
 				"Three.js",
 				"Typescript"

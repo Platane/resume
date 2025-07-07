@@ -117,6 +117,16 @@ export const generateMarkdown = async ({
 			"",
 		]),
 
+		"# Skills",
+		"",
+		...resume.skills.flatMap((s) => [
+			`- **${s.name}**`,
+			"",
+			"  _" + s.keywords.join(", ") + "_",
+
+			"",
+		]),
+
 		"# Languages",
 		"",
 		...resume.languages.flatMap((l) => [

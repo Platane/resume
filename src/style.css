@@ -8,6 +8,7 @@ body {
 	margin: 16px;
 	display: flex;
 	flex-direction: column;
+	gap: 1em;
 }
 
 p,
@@ -18,24 +19,28 @@ h3 {
 	margin: 0;
 }
 
+li {
+	margin: 0;
+}
+
 section {
 	h2 {
 		border-bottom: solid 1px currentColor;
+		margin-bottom: 0.5em;
 	}
 	> ul {
 		padding-inline-start: 0;
 		list-style-type: none;
-		> li {
-			margin: 8px 0;
-		}
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
 	}
-	margin: 8px 0;
 }
 header {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
-	gap: 16px;
+	gap: 1em;
 	* {
 		display: inline-block;
 	}
@@ -50,8 +55,8 @@ header {
 }
 
 img.logo {
-	width: 16px;
-	height: 16px;
+	width: 1em;
+	height: 1em;
 	filter: grayscale(0.6);
 	border-radius: 2px;
 }
@@ -86,13 +91,15 @@ ul.tag-list {
 	}
 }
 
-section#projects {
+section#projects,
+section#skills {
 	& > ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 16px;
+		grid-gap: 1em;
 
 		li {
+			margin: 0;
 			display: block;
 		}
 	}
@@ -100,9 +107,26 @@ section#projects {
 
 section#basics {
 	h1 {
-		margin-bottom: 8px;
+		margin-bottom: 0.5em;
 	}
 	blockquote {
-		margin-top: 8px;
+		margin-top: 0.5em;
+	}
+}
+
+button#fit-to-print {
+	position: fixed;
+	padding: 10px;
+	bottom: 0;
+	right: 0;
+}
+@media print {
+	@page {
+		size: A4 portrait;
+		page-break-before: always;
+	}
+	button#fit-to-print {
+		display: none;
+		visibility: hidden;
 	}
 }

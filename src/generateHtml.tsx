@@ -26,7 +26,10 @@ export const generateHtml = async () => {
 
 	return (
 		"<!doctype html>" +
-		renderToString(<Html content={resumeContent} css={cssContent} />)
+		renderToString(<Html content={resumeContent} css={cssContent} />).replace(
+			/<body>/,
+			`<body><button id="fit-to-print" onclick="${fnBody.replaceAll('"', `'`)}">fit to print</button>`,
+		)
 	);
 };
 
@@ -143,6 +146,26 @@ const Resume = ({
 			</ul>
 		</section>
 
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				{resume.skills.map((s) => (
+					<li>
+						<header>
+							<h3>{s.name}</h3>
+						</header>
+						<div>
+							<ul className="tag-list">
+								{s.keywords.map((s) => (
+									<li>{s}</li>
+								))}
+							</ul>
+						</div>
+					</li>
+				))}
+			</ul>
+		</section>
+
 		<section id="projects">
 			<h2>Projects</h2>
 			<ul>
@@ -165,3 +188,18 @@ const Resume = ({
 		</section>
 	</>
 );
+
+const fnBody = function () {
+	// const { height } = document.body.getBoundingClientRect();
+
+	const html = document.body.parentElement;
+	html.style.height = "29.7cm";
+	const { height: htmlHeight } = html.getBoundingClientRect();
+	const { height: bodyHeight } = document.body.getBoundingClientRect();
+
+	const s = 1 / Math.max(1, bodyHeight / htmlHeight);
+	document.body.style.fontSize = `${s}em`;
+}
+	.toString()
+	.slice(12, -1)
+	.trim();
