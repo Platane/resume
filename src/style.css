@@ -110,6 +110,11 @@ section#education {
 		margin-left: auto;
 	}
 }
+section#education {
+	img.logo {
+		display: none;
+	}
+}
 
 section#projects,
 section#skills {
