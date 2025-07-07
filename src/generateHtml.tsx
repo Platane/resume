@@ -20,6 +20,11 @@ export const generateHtml = async () => {
 			.map(async (url) => [url, await getWebsiteIcon(url)]),
 	).then(Object.fromEntries);
 
+	// remove irrelevant xp
+	resume.work = resume.work.filter(
+		(w) => !w.name.toLocaleLowerCase().match(/(hola|mushin|arthur)/),
+	);
+
 	const resumeContent = renderToString(
 		<Resume resume={resume} logos={logos} />,
 	);
@@ -194,15 +199,28 @@ const Resume = ({
 );
 
 const fnBody = function () {
-	// const { height } = document.body.getBoundingClientRect();
-
 	const html = document.body.parentElement;
 	html.style.height = "29.7cm";
+	html.style.width = "24.2cm";
 	const { height: htmlHeight } = html.getBoundingClientRect();
-	const { height: bodyHeight } = document.body.getBoundingClientRect();
 
-	const s = 1 / Math.max(1, bodyHeight / htmlHeight);
-	document.body.style.fontSize = `${s}em`;
+	html.style.height = "auto";
+
+	let a = 0.1;
+	let b = 1;
+
+	for (let k = 16; k--; ) {
+		const e = (a + b) / 2;
+
+		html.style.fontSize = `${e}em`;
+		const { height: bodyHeight } = document.body.getBoundingClientRect();
+
+		if (bodyHeight > htmlHeight) b = e;
+		else a = e;
+	}
+
+	html.style.fontSize = `${a}em`;
+	html.style.width = "auto";
 }
 	.toString()
 	.slice(12, -1)

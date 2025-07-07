@@ -6,7 +6,7 @@ html {
 }
 
 body {
-	margin: 16px;
+	margin: 1em;
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
@@ -139,8 +139,8 @@ section#basics {
 button#fit-to-print {
 	position: fixed;
 	padding: 10px;
-	bottom: 0;
-	right: 0;
+	bottom: 4px;
+	right: 4px;
 }
 @media print {
 	@page {
@@ -153,5 +153,6 @@ button#fit-to-print {
 	}
 	a {
 		color: blue;
+		text-decoration: underline;
 	}
 }
