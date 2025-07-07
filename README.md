@@ -6,6 +6,7 @@ My resume
 
 - [resume.json](./resume.json)
 - [resume.md](./resume.md)
+- [resume.html](https://platane.github.io/resume/resume.html)
 
 
 # Usage
