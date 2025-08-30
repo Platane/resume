@@ -21,4 +21,6 @@ bun --print "require('./src/generateHtml.tsx').generateHtml()" > dist/resume.htm
 
 bunx nodemon --exec 'bun --print "require(\"./src/generateHtml.tsx\").generateHtml()" > dist/resume.html' -e tx,tsx,css,json
 
+# generate pdf file
+bun --eval "require('./src/generatePdf.ts').generatePdf({outFile:'dist/resume.pdf'})"
 ```

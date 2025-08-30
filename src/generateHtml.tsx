@@ -3,8 +3,6 @@ import { renderToString } from "react-dom/server";
 import resume from "../resume.json";
 import { getWebsiteIcon } from "./generateMarkdown";
 
-// import * as styles from "./style.module.css";
-
 type IResume = typeof resume;
 
 export const generateHtml = async () => {
@@ -33,7 +31,7 @@ export const generateHtml = async () => {
 		"<!doctype html>" +
 		renderToString(<Html content={resumeContent} css={cssContent} />).replace(
 			/<body>/,
-			`<body><button id="fit-to-print" onclick="${fnBody.replaceAll('"', `'`)}">fit to print</button>`,
+			`<body><button id="fit-to-print" onclick="${fitToPrintFnCode.replaceAll('"', `'`)}">fit to print</button>`,
 		)
 	);
 };
@@ -198,10 +196,18 @@ const Resume = ({
 	</>
 );
 
-const fnBody = function () {
+/**
+ * set the font size so the whole document fits a A4 page ( 210mm x 297mm )
+ * which should allows to fill the pdf print of the page nicely
+ */
+export const fitToPrintFn = function () {
 	const html = document.body.parentElement;
-	html.style.height = "29.7cm";
-	html.style.width = "24.2cm";
+	html.style.height = "297mm";
+	html.style.width = "210mm";
+
+	// ⚠️ otherwise it overflows on two pages with chrome idk why
+	html.style.height = "295mm";
+
 	const { height: htmlHeight } = html.getBoundingClientRect();
 
 	html.style.height = "auto";
@@ -221,7 +227,9 @@ const fnBody = function () {
 
 	html.style.fontSize = `${a}em`;
 	html.style.width = "auto";
-}
-	.toString()
-	.slice(12, -1)
-	.trim();
+};
+
+/*
+ * code of the fitToPrintFn as string
+ */
+export const fitToPrintFnCode = fitToPrintFn.toString().slice(12, -1).trim();

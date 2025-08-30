@@ -78,8 +78,9 @@ ul.tag-list {
 	padding-top: 4px;
 	padding-inline-start: 0;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
-	gap: 10px;
+	gap: 0.4em;
 	li {
 		display: block;
 		padding: 2px 6px;
