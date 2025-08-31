@@ -19,7 +19,7 @@ jobs:
       - run: |
           mkdir dist
           bun --print "require('./src/generateMarkdown.ts').generateMarkdown()" > dist/resume.md
-          bun --print "require('./src/generateHtml.tsx').generateHtml()" > dist/resume.html
+          bun --print "require('./src/generateHtml.tsx').generateHtml()" > dist/index.html
           bun --eval "require('./src/generatePdf.ts').generatePdf({outFile:'dist/resume.pdf'})"
 
       - uses: actions/upload-pages-artifact@v3
