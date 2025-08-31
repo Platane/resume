@@ -1,4 +1,4 @@
-# Arthur Brongniart | Frontend Engineer
+# Arthur Brongniart | Senior Software Engineer
 
 [platane.me](https://platane.me) · [github.com/platane](https://github.com/platane) · [linkedin.com/in/arthur-brongniart-ab802b65](https://linkedin.com/in/arthur-brongniart-ab802b65) · [arthur@brongniart.me](mailto:arthur@brongniart.me)
 
@@ -14,7 +14,7 @@
   Rayon.design is an app to craft floor plan in the browser. As one of the first employees, I accompanied the product from prototype to loved by thousand monthly users.
   - Developed and iterated on the team management and permission part of the app
   - Implemented a searchable hierarchy list displaying thousands of items smoothly
-  - Designed the state machine responsible for syncing the floor plan with our database as the user draws
+  - Designed the frontendstate machine responsible for syncing the floor plan with our database and other users
   - Maintained and evolved the backend GraphQL API
   - Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks
 
@@ -135,7 +135,7 @@
 
 - **Frontend**
 
-  _Typescript, React, React Native, Rust Wasm, css in js, Angular, vite_
+  _Typescript, React, React Native, Rust Wasm, css in js, vite_
 
 - **3D Development**
 
