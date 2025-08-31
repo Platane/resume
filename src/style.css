@@ -60,7 +60,7 @@ header {
 img.logo {
 	width: 1em;
 	height: 1em;
-	filter: grayscale(0.6);
+	filter: grayscale(0.4);
 	border-radius: 2px;
 }
 

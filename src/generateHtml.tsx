@@ -23,7 +23,10 @@ export const generateHtml = async () => {
 		(w) => !w.name.match(/(wanadev|hola|mushin|arthur)/i),
 	);
 	resume.projects = resume.projects.filter(
-		(w) => !w.name.match(/(yar-htzee|jurassic)/i),
+		(p) => !p.name.match(/(yar-htzee|jurassic)/i),
+	);
+	resume.basics.profiles = resume.basics.profiles.filter((p) =>
+		p.network.match(/(github)/i),
 	);
 
 	const resumeContent = renderToString(
