@@ -6,8 +6,8 @@ export const generatePdf = async ({ outFile }: { outFile: string }) => {
 
 	const browser = await puppeteer.launch({
 		args: ["--no-sandbox"], // workaround for my ubuntu
-		defaultViewport: { width: 2000, height: 2000 },
-		headless: false,
+		defaultViewport: { width: 800, height: 800 },
+		headless: true,
 	});
 
 	try {
