@@ -2,11 +2,12 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Arthur Brongniart",
-		"label": "Web developer",
+		"label": "Frontend Engineer",
 		"image": "https://github.com/Platane/Platane.github.io/blob/master/public/assets/img/avatar-flat.png?raw=true",
 		"email": "arthur@brongniart.me",
 		"url": "https://platane.me",
-		"summary": "I do cool things on the web.",
+		"summary2": "I do cool things on the web.",
+		"summary": "Talented Software Engineer with a passion for crafting delightful user interfaces.",
 		"location": {
 			"countryCode": "FR"
 		},
@@ -29,22 +30,25 @@
 			"position": "Senior Software Engineer",
 			"startDate": "2022-04-01",
 			"endDate": "2024-06-30",
-			"summary": "Rayon.design is an app to craft floor plan with precision in the browser",
+			"summary": "Rayon.design is an app to craft floor plan in the browser. As one of the first employees, I accompanied the product from prototype to loved by thousand monthly users.",
 			"highlights": [
-				"Developed and iterated on the team management part of the app",
-				"Added several key features to the floor plan editor",
-				"Designed the state machine responsible for syncing the floor plan with our database as the user draws"
+				"Developed and iterated on the team management and permission part of the app",
+				"Implemented a searchable hierarchy list displaying thousands of items smoothly",
+				"Designed the state machine responsible for syncing the floor plan with our database as the user draws",
+				"Maintained and evolved the backend GraphQL API",
+				"Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks"
 			],
 			"url": "https://rayon.design",
 			"location": "Paris, FR",
 			"skills": [
-				"React.js",
+				"React",
 				"Typescript",
 				"Rust Wasm",
 				"Apollo GraphQL",
 				"Github Action",
 				"Next.js",
-				"AWS AppSync"
+				"AWS AppSync",
+				"PostgreSQL"
 			]
 		},
 		{
@@ -56,17 +60,17 @@
 			"highlights": [
 				"Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language",
 				"Implemented web based editor to allow authors to craft 3d / AR experiences for the viewer",
-				"Wrote scroll based interactive experiences mixing 3d and video"
+				"Wrote a scroll-based interactive experience mixing 3d and video"
 			],
 			"url": "https://yahoo.com",
 			"skills": ["Three.js", "8thWall", "TypeScript", "Augmented Reality (AR)"]
 		},
 		{
 			"name": "Accountable.eu",
-			"position": "Full Stack Developer",
+			"position": "Full-Stack Developer",
 			"startDate": "2019-03-01",
 			"endDate": "2019-06-30",
-			"summary": "Accountable allows to do accounting from your phone. With access to your bank account and a receipt OCR, reconciliation is fully automated",
+			"summary": "Accountable allows to do accounting from your phone, reconciliating scanned receipts with bank account. I worked on the mobile app and the backend",
 			"highlights": [
 				"Designed and implemented a service to reliably interface with various bank account API",
 				"Prototyped a desktop version of the app",
@@ -74,7 +78,7 @@
 			],
 			"url": "https://accountable.eu",
 			"location": "Brussels, BE",
-			"skills": ["React Native", "Typescript"]
+			"skills": ["React Native", "Node.js", "Typescript", "Github Action"]
 		},
 		{
 			"name": "Dunelm.com",
@@ -83,14 +87,16 @@
 			"endDate": "2019-02-28",
 			"summary": "Worked on the customer browsing experience of a big e-commerce website",
 			"highlights": [
-				"Participated to architecture decisions, re-thinking the website with cutting edge technologies",
-				"Set up a reliable deployment pipeline",
-				"Conducted workshop and presentation to share the knowledge across an international team"
+				"Drafted, championed and implemented an architecture solution for the browsing experience, optimizing page speed and SEO",
+				"Conducted workshop and presentation to share the knowledge across an international team",
+				"Set up a reliable deployment pipeline"
 			],
 			"url": "https://dunelm.com",
 			"location": "London, UK",
 			"skills": [
-				"React.js",
+				"React",
+				"Redux",
+				"Server Side Rendering",
 				"Typescript",
 				"Progressive Web Applications",
 				"AWS Lambda",
@@ -100,13 +106,13 @@
 		},
 		{
 			"name": "Arthur Brongniart corp.",
-			"position": "Contract Software Engineer",
+			"position": "Software Engineering Contractor",
 			"startDate": "2017-05-01",
 			"endDate": "2018-07-31",
 			"highlights": [],
 			"summary": "I worked as a freelancer on short term projects ( 1 to 2 months )",
 			"url": "https://platane.me",
-			"skills": ["React.js", "Angular.js", "Typescript"]
+			"skills": ["React", "Angular", "Typescript"]
 		},
 		{
 			"name": "MyMushin.com",
@@ -119,38 +125,43 @@
 				"Solved image generation issues on client-side (regarding image downsizing quality)"
 			],
 			"url": "https://MyMushin.com",
-			"skills": ["React.js", "Typescript", "HTML Canvas"]
+			"skills": ["React", "Typescript", "HTML Canvas"]
 		},
 		{
 			"name": "Tracktl.com",
 			"position": "Lead Developer",
 			"startDate": "2015-04-01",
 			"endDate": "2017-02-28",
-			"summary": "Tracktl is a social jukebox app",
+			"summary": "Tracktl is a social jukebox app. In a small team,I worked on the app and the infrastructure.",
 			"highlights": [
 				"Wrote services to handled high volume of live update",
-				"Interfaced with various music providers (youtube, deezer, soundcloud, …)",
-				"Set up a reliable deployment pipeline"
+				"Interfaced with various music providers (youtube, deezer, soundcloud, …)"
 			],
 			"url": "https://tracktl.com",
 			"location": "Paris, FR",
 			"skills": [
-				"React.js",
+				"React",
+				"Angular",
 				"Typescript",
 				"Google Cloud Platform",
-				"Kubernetes"
+				"Docker",
+				"Kubernetes",
+				"WebSocket"
 			]
 		},
 		{
 			"name": "Hola.org",
-			"position": "r&d",
+			"position": "Software Engineering",
 			"startDate": "2014-11-01",
 			"endDate": "2015-01-31",
-			"summary": "Hola provides a browser extension to play video over p2p network. I worked on this extension and on the landing page.",
-			"highlights": [],
+			"summary": "Hola offers a p2p vpn and services built on top of it",
+			"highlights": [
+				"Integrated UI elements with delightful animations for the landing website",
+				"Iterated on the design of the torrent player browserextension"
+			],
 			"url": "https://hola.org",
 			"location": "Netanya, IL",
-			"skills": ["TypeScript"]
+			"skills": ["TypeScript", "browser extension"]
 		},
 		{
 			"name": "Wanadev.fr",
@@ -188,13 +199,14 @@
 	],
 	"skills": [
 		{
-			"name": "Web Development",
+			"name": "Frontend",
 			"keywords": [
 				"Typescript",
-				"React.js",
+				"React",
+				"React Native",
 				"Rust Wasm",
 				"css in js",
-				"tailwind",
+				"Angular",
 				"vite"
 			]
 		},
@@ -204,7 +216,7 @@
 		},
 		{
 			"name": "Backend",
-			"keywords": ["Node", "GraphQL", "AWS", "SQL"]
+			"keywords": ["Node.js", "GraphQL", "AWS", "SQL", "Kubernetes"]
 		},
 		{
 			"name": "Operation",
@@ -229,6 +241,18 @@
 	],
 	"projects": [
 		{
+			"name": "Timezone.rocks",
+			"summary": "Visualize different timezones around the globe. Helps to plan meeting where everyone is awake.",
+			"url": "https://timezone.rocks",
+			"skills": ["React", "React-Three-Fiber", "Three.js", "Typescript"],
+			"medias": [
+				{
+					"url": "./assets/timezone-rocks--earth.jpeg",
+					"title": "Earth animation"
+				}
+			]
+		},
+		{
 			"name": "Vernissage",
 			"summary": "A VR game in a minimalist museum. Made for the js13kgames.com competition.",
 			"url": "https://github.com/Platane/js13k-2017",
@@ -252,18 +276,7 @@
 				}
 			]
 		},
-		{
-			"name": "Timezone.rocks",
-			"summary": "Visualize different timezones around the globe. Helps to plan meeting where everyone is awake.",
-			"url": "https://timezone.rocks",
-			"skills": ["React.js", "React-Three-Fiber", "Three.js", "Typescript"],
-			"medias": [
-				{
-					"url": "./assets/timezone-rocks--earth.jpeg",
-					"title": "Earth animation"
-				}
-			]
-		},
+
 		{
 			"name": "yAR-htzee",
 			"summary": "A pretty cool yahtzee game in augmented reality",

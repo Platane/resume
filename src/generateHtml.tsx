@@ -20,7 +20,10 @@ export const generateHtml = async () => {
 
 	// remove irrelevant xp
 	resume.work = resume.work.filter(
-		(w) => !w.name.toLocaleLowerCase().match(/(hola|mushin|arthur)/),
+		(w) => !w.name.match(/(wanadev|hola|mushin|arthur)/i),
+	);
+	resume.projects = resume.projects.filter(
+		(w) => !w.name.match(/(yar-htzee|jurassic)/i),
 	);
 
 	const resumeContent = renderToString(
@@ -206,7 +209,7 @@ export const fitToPrintFn = function () {
 	html.style.width = "210mm";
 
 	// ⚠️ otherwise it overflows on two pages with chrome idk why
-	html.style.height = "295mm";
+	html.style.height = "292mm";
 
 	const { height: htmlHeight } = html.getBoundingClientRect();
 
