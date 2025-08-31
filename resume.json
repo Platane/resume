@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
 	"basics": {
 		"name": "Arthur Brongniart",
-		"label": "Frontend Engineer",
+		"label": "Senior Software Engineer",
 		"image": "https://github.com/Platane/Platane.github.io/blob/master/public/assets/img/avatar-flat.png?raw=true",
 		"email": "arthur@brongniart.me",
 		"url": "https://platane.me",
@@ -34,7 +34,7 @@
 			"highlights": [
 				"Developed and iterated on the team management and permission part of the app",
 				"Implemented a searchable hierarchy list displaying thousands of items smoothly",
-				"Designed the state machine responsible for syncing the floor plan with our database as the user draws",
+				"Designed the frontendstate machine responsible for syncing the floor plan with our database and other users",
 				"Maintained and evolved the backend GraphQL API",
 				"Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks"
 			],
@@ -206,7 +206,6 @@
 				"React Native",
 				"Rust Wasm",
 				"css in js",
-				"Angular",
 				"vite"
 			]
 		},
