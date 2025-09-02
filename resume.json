@@ -119,7 +119,7 @@
 			"position": "App Developer",
 			"startDate": "2017-06-01",
 			"endDate": "2017-10-31",
-			"summary": "Mushin edits a web app to create moodboards",
+			"summary": "Mushin edits a web app to create moodboards. I intervened to fix issues and add new features.",
 			"highlights": [
 				"Implemented a drawing canvas with rich interactions (drag-n-drop, resizing, smart cropping, snapping, …)",
 				"Solved image generation issues on client-side (regarding image downsizing quality)"
