@@ -105,11 +105,13 @@ const Resume = ({
 			<ul>
 				{resume.work.map((w) => (
 					<li>
+						<h3 className="company-position">{w.position}</h3>
 						<header>
 							{logos[w.url] && (
 								<img className="logo" alt="logo" src={logos[w.url]} />
 							)}
-							<h3>{w.name}</h3> {w.location && <address>{w.location}</address>}
+							<h4 className="company-name">{w.name}</h4>{" "}
+							{w.location && <address>{w.location}</address>}
 							<span className="date">
 								{" "}
 								{dateFmt(w.startDate)} -{" "}

@@ -16,7 +16,8 @@ p,
 blockquote,
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	margin: 0;
 }
 li {
@@ -95,6 +96,15 @@ ul.tag-list {
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;
+	}
+}
+section#work {
+	h3.company-position {
+		line-height: 1.5em;
+	}
+	h4.company-name {
+		color: #666;
+		line-height: 1.5em;
 	}
 }
 section#work,
