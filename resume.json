@@ -36,6 +36,7 @@
 				"Implemented a searchable hierarchy list displaying thousands of items smoothly",
 				"Designed the frontendstate machine responsible for syncing the floor plan with our database and other users",
 				"Maintained and evolved the backend GraphQL API",
+				"Built chrome and firefox extensions to help internal developers debug the app",
 				"Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks"
 			],
 			"url": "https://rayon.design",

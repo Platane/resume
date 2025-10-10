@@ -16,6 +16,7 @@
   - Implemented a searchable hierarchy list displaying thousands of items smoothly
   - Designed the frontendstate machine responsible for syncing the floor plan with our database and other users
   - Maintained and evolved the backend GraphQL API
+  - Built chrome and firefox extensions to help internal developers debug the app
   - Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks
 
   _React, Typescript, Rust Wasm, Apollo GraphQL, Github Action, Next.js, AWS AppSync, PostgreSQL_
@@ -60,7 +61,7 @@
 -  **MyMushin.com**
   _06/2017 - 10/2017_
 
-  Mushin edits a web app to create moodboards
+  Mushin edits a web app to create moodboards. I intervened to fix issues and add new features.
   - Implemented a drawing canvas with rich interactions (drag-n-drop, resizing, smart cropping, snapping, …)
   - Solved image generation issues on client-side (regarding image downsizing quality)
 
