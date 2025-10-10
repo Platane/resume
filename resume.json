@@ -49,6 +49,16 @@
 				"Next.js",
 				"AWS AppSync",
 				"PostgreSQL"
+			],
+			"medias": [
+				{
+					"url": "./assets/rayon--floor-plan-editor.jpeg",
+					"title": "Floor plan editor"
+				},
+				{
+					"url": "./assets/rayon--team-management-panel.jpeg",
+					"title": "Team management app"
+				}
 			]
 		},
 		{
@@ -63,7 +73,17 @@
 				"Wrote a scroll-based interactive experience mixing 3d and video"
 			],
 			"url": "https://yahoo.com",
-			"skills": ["Three.js", "8thWall", "TypeScript", "Augmented Reality (AR)"]
+			"skills": ["Three.js", "8thWall", "TypeScript", "Augmented Reality (AR)"],
+			"medias": [
+				{
+					"url": "./assets/yahoo--3d-viewer.jpeg",
+					"title": "News page with model viewer"
+				},
+				{
+					"url": "./assets/yahoo--ar-whale.jpeg",
+					"title": "White whale model in Aurgmented Reality"
+				}
+			]
 		},
 		{
 			"name": "Accountable.eu",
@@ -78,7 +98,17 @@
 			],
 			"url": "https://accountable.eu",
 			"location": "Brussels, BE",
-			"skills": ["React Native", "Node.js", "Typescript", "Github Action"]
+			"skills": ["React Native", "Node.js", "Typescript", "Github Action"],
+			"medias": [
+				{
+					"url": "./assets/accountable--app-invoices.jpeg",
+					"title": "Invoices creation in the mobile app"
+				},
+				{
+					"url": "./assets/accountable--app-bank.jpeg",
+					"title": "Bank transfer reconciliation in the mobile app"
+				}
+			]
 		},
 		{
 			"name": "Dunelm.com",
@@ -102,6 +132,16 @@
 				"AWS Lambda",
 				"Jenkins",
 				"Algolia"
+			],
+			"medias": [
+				{
+					"url": "./assets/dunelm--product-page.jpeg",
+					"title": "Product Detail Page"
+				},
+				{
+					"url": "./assets/dunelm--search.jpeg",
+					"title": "Search Page"
+				}
 			]
 		},
 		{
@@ -125,7 +165,13 @@
 				"Solved image generation issues on client-side (regarding image downsizing quality)"
 			],
 			"url": "https://MyMushin.com",
-			"skills": ["React", "Typescript", "HTML Canvas"]
+			"skills": ["React", "Typescript", "HTML Canvas"],
+			"medias": [
+				{
+					"url": "./assets/mushin--gallery.jpeg",
+					"title": "Media Gallery"
+				}
+			]
 		},
 		{
 			"name": "Tracktl.com",
@@ -147,6 +193,16 @@
 				"Docker",
 				"Kubernetes",
 				"WebSocket"
+			],
+			"medias": [
+				{
+					"url": "./assets/tracktl--app.jpeg",
+					"title": "Tracktl App"
+				},
+				{
+					"url": "./assets/tracktl--photo-wall.jpeg",
+					"title": "Tracktl Photo Wall"
+				}
 			]
 		},
 		{
@@ -176,7 +232,17 @@
 			],
 			"url": "https://www.wanadevdigital.fr",
 			"location": "Lyon, FR",
-			"skills": ["Three.js", "Babylon.js", "TypeScript"]
+			"skills": ["Three.js", "Babylon.js", "TypeScript"],
+			"medias": [
+				{
+					"url": "./assets/wanadev--2d-mode.jpeg",
+					"title": "Home planning 2D"
+				},
+				{
+					"url": "./assets/wanadev--3d-mode.jpeg",
+					"title": "Home planning 3D"
+				}
+			]
 		}
 	],
 	"education": [

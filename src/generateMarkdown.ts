@@ -86,6 +86,8 @@ export const generateMarkdown = async ({
 			"",
 			w.skills ? "  _" + w.skills.join(", ") + "_" : " ",
 			"",
+			// ...(w.medias?.map((m) => `  ![${m.title}](${m.url})`) ?? []),
+			// "",
 		]),
 		"",
 
