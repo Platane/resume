@@ -19,7 +19,7 @@ bun --print "require('./src/generateMarkdown.ts').generateMarkdown()" > resume.m
 # generate html file
 bun --print "require('./src/generateHtml.tsx').generateHtml()" > dist/resume.html
 
-bunx nodemon --exec 'bun --print "require(\"./src/generateHtml.tsx\").generateHtml()" > dist/resume.html' -e tx,tsx,css,json
+bun --watch --eval "require('./src/generateHtml.tsx').generateHtml().then((html) => Bun.write('dist/resume.html', html));"
 
 # generate pdf file
 bun --eval "require('./src/generatePdf.ts').generatePdf({outFile:'dist/resume.pdf'})"
