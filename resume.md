@@ -98,11 +98,11 @@
 
 # Education
 
--  **Telecom Nancy** _2011 - 2014_
+-  **Telecom Nancy** _2010 - 2014_
 
   Grande École | Software engineering (IL)
 
--  **lycée Henry Wallon Valenciennes** _2009 - 2011_
+-  **lycée Henry Wallon Valenciennes** _2008 - 2010_
 
   Classe Préparatoire | Mathematics and Computer Science (MP)
 
