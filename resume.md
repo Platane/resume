@@ -8,15 +8,25 @@
 
 # Work
 
+-  **DataDog**
+  Paris, FR _11/2025 - present_
+
+  DataDog is a monitoring and observability platform. I worked on the on-premise solution on the full stack ( app / in-house services / on-premise services ).
+  - Implemented performance and cost saving features across the stack
+  - Did maintainer work on the OSS Quickwit project
+  - Participated in on-call rotation and incident response
+
+  _React, Rust, Go, Site Reliability Engineering, Quickwit, agentic coding_
+
 -  **Rayon.design**
   Paris, FR _04/2022 - 06/2024_
 
-  Rayon.design is an app to craft floor plan in the browser. As one of the first employees, I accompanied the product from prototype to loved by thousand monthly users.
+  Rayon.design is an app to craft floor plans in the browser. As one of the first employees, I accompanied the product from prototype to loved by thousands of monthly users.
   - Developed and iterated on the team management and permission part of the app
   - Implemented a searchable hierarchy list displaying thousands of items smoothly
-  - Designed the frontendstate machine responsible for syncing the floor plan with our database and other users
+  - Designed the frontend state machine responsible for syncing the floor plan with our database and other users
   - Maintained and evolved the backend GraphQL API
-  - Built chrome and firefox extensions to help internal developers debug the app
+  - Built Chrome and Firefox extensions to help internal developers debug the app
   - Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks
 
   _React, Typescript, Rust Wasm, Apollo GraphQL, Github Action, Next.js, AWS AppSync, PostgreSQL_
@@ -25,8 +35,8 @@
   _01/2020 - 05/2022_
 
   Worked on several web projects (AR / 3d …) aiming to offer interactive experiences in news articles
-  - Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language
-  - Implemented web based editor to allow authors to craft 3d / AR experiences for the viewer
+  - Crafted a customizable 3d / AR web viewer embedded in news articles with huge traffic, featuring a scripting language
+  - Implemented web-based editor to allow authors to craft 3d / AR experiences for the viewer
   - Wrote a scroll-based interactive experience mixing 3d and video
 
   _Three.js, 8thWall, TypeScript, Augmented Reality (AR)_
@@ -34,7 +44,7 @@
 -  **Accountable.eu**
   Brussels, BE _03/2019 - 06/2019_
 
-  Accountable allows to do accounting from your phone, reconciliating scanned receipts with bank account. I worked on the mobile app and the backend
+  Accountable allows to do accounting from your phone, reconciling scanned receipts with a bank account. I worked on the mobile app and the backend
   - Designed and implemented a service to reliably interface with various bank account API
   - Prototyped a desktop version of the app
   - Set up tools and practices to improve code quality and reliability (CI / CD, typing, linting, integration testing)
@@ -54,14 +64,14 @@
 -  **Arthur Brongniart corp.**
   _05/2017 - 07/2018_
 
-  I worked as a freelancer on short term projects ( 1 to 2 months )
+  I worked as a freelancer on short-term projects (1 to 2 months)
 
   _React, Angular, Typescript_
 
 -  **MyMushin.com**
   _06/2017 - 10/2017_
 
-  Mushin edits a web app to create moodboards. I intervened to fix issues and add new features.
+  Mushin is a web app to create moodboards. I joined to fix issues and add new features.
   - Implemented a drawing canvas with rich interactions (drag-n-drop, resizing, smart cropping, snapping, …)
   - Solved image generation issues on client-side (regarding image downsizing quality)
 
@@ -70,8 +80,8 @@
 -  **Tracktl.com**
   Paris, FR _04/2015 - 02/2017_
 
-  Tracktl is a social jukebox app. In a small team,I worked on the app and the infrastructure.
-  - Wrote services to handled high volume of live update
+  Tracktl is a social jukebox app. In a small team, I worked on the app and the infrastructure.
+  - Wrote services to handle high volume of live updates
   - Interfaced with various music providers (youtube, deezer, soundcloud, …)
 
   _React, Angular, Typescript, Google Cloud Platform, Docker, Kubernetes, WebSocket_
@@ -79,9 +89,9 @@
 -  **Hola.org**
   Netanya, IL _11/2014 - 01/2015_
 
-  Hola offers a p2p vpn and services built on top of it
+  Hola offers a P2P VPN and services built on top of it.
   - Integrated UI elements with delightful animations for the landing website
-  - Iterated on the design of the torrent player browserextension
+  - Iterated on the design of the torrent player browser extension
 
   _TypeScript, browser extension_
 
