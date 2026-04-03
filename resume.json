@@ -34,7 +34,7 @@
 			"highlights": [
 				"Developed and iterated on the team management and permission part of the app",
 				"Implemented a searchable hierarchy list displaying thousands of items smoothly",
-				"Designed the frontendstate machine responsible for syncing the floor plan with our database and other users",
+				"Designed the frontend state machine responsible for syncing the floor plan with our database and other users",
 				"Maintained and evolved the backend GraphQL API",
 				"Built chrome and firefox extensions to help internal developers debug the app",
 				"Set up automation for deployment based on git tags, allowing for easy and predictable rollbacks"
@@ -69,7 +69,7 @@
 			"endDate": "2022-05-31",
 			"summary": "Worked on several web projects (AR / 3d …) aiming to offer interactive experiences in news articles",
 			"highlights": [
-				"Carfted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language",
+				"Crafted a customizable 3d / AR web viewer embedded in news article with huge traffic, featuring a scripting language",
 				"Implemented web based editor to allow authors to craft 3d / AR experiences for the viewer",
 				"Wrote a scroll-based interactive experience mixing 3d and video"
 			],
@@ -82,7 +82,7 @@
 				},
 				{
 					"url": "./assets/yahoo--ar-whale.jpeg",
-					"title": "White whale model in Aurgmented Reality"
+					"title": "White whale model in Augmented Reality"
 				}
 			]
 		},
@@ -91,7 +91,7 @@
 			"position": "Full-Stack Developer",
 			"startDate": "2019-03-01",
 			"endDate": "2019-06-30",
-			"summary": "Accountable allows to do accounting from your phone, reconciliating scanned receipts with bank account. I worked on the mobile app and the backend",
+			"summary": "Accountable allows to do accounting from your phone, reconciling scanned receipts with bank account. I worked on the mobile app and the backend",
 			"highlights": [
 				"Designed and implemented a service to reliably interface with various bank account API",
 				"Prototyped a desktop version of the app",
@@ -179,9 +179,9 @@
 			"position": "Lead Developer",
 			"startDate": "2015-04-01",
 			"endDate": "2017-02-28",
-			"summary": "Tracktl is a social jukebox app. In a small team,I worked on the app and the infrastructure.",
+			"summary": "Tracktl is a social jukebox app. In a small team, I worked on the app and the infrastructure.",
 			"highlights": [
-				"Wrote services to handled high volume of live update",
+				"Wrote services to handle high volume of live updates",
 				"Interfaced with various music providers (youtube, deezer, soundcloud, …)"
 			],
 			"url": "https://tracktl.com",
@@ -214,7 +214,7 @@
 			"summary": "Hola offers a p2p vpn and services built on top of it",
 			"highlights": [
 				"Integrated UI elements with delightful animations for the landing website",
-				"Iterated on the design of the torrent player browserextension"
+				"Iterated on the design of the torrent player browser extension"
 			],
 			"url": "https://hola.org",
 			"location": "Netanya, IL",
