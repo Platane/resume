@@ -4,7 +4,13 @@ import resume from "../resume.json";
  * get the url to the website icon
  */
 export const getWebsiteIcon = async (url: string) => {
-	const html = await fetch(url).then((res) => res.text());
+	const abortController = new AbortController();
+	const signal = abortController.signal;
+	setTimeout(() => abortController.abort(), 10_000);
+
+	const htmlRes = await fetch(url, { signal }).catch(() => null);
+	if (!htmlRes?.ok) return;
+	const html = await htmlRes.text();
 	const iconUrls = [...html.matchAll(/<link[^>]*>/g)]
 		.filter(([l]) => l.match(/rel="([^"]+)"/)?.[1].includes("icon"))
 		.map(([l]) => l.match(/href="([^"]+)"/)?.[1])
@@ -20,8 +26,8 @@ export const getWebsiteIcon = async (url: string) => {
 
 	const fullUrl = new URL(iconUrl, url).href;
 
-	const res = await fetch(fullUrl);
-	if (res.ok) return fullUrl;
+	const iconRes = await fetch(fullUrl, { signal });
+	if (iconRes.ok) return fullUrl;
 };
 
 /**
