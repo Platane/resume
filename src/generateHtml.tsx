@@ -1,7 +1,7 @@
 import * as React from "react";
 import { renderToString } from "react-dom/server";
 import resume from "../resume.json";
-import { getWebsiteIcon } from "./generateMarkdown";
+import { getWebsiteIcon } from "./getWebsiteIcon";
 
 type IResume = typeof resume;
 
@@ -20,7 +20,7 @@ export const generateHtml = async () => {
 
 	// remove irrelevant xp
 	resume.work = resume.work.filter(
-		(w) => !w.name.match(/(wanadev|hola|mushin|arthur)/i),
+		(w) => !w.name.match(/(wanadev|hola|mushin|arthur|tracktl)/i),
 	);
 	resume.projects = resume.projects.filter(
 		(p) => !p.name.match(/(yar-htzee|jurassic)/i),

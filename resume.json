@@ -25,27 +25,27 @@
 		]
 	},
 	"work": [
-  	{
-  		"name": "DataDog",
-  		"position": "Senior Software Engineer",
-  		"startDate": "2025-11-01",
-  		"summary": "DataDog is a monitoring and observability platform. I worked on the on-premise solution on the full stack ( app / in-house services / on-premise services ).",
-  		"highlights": [
-  			"Implemented performance and cost saving features across the stack",
-  			"Did maintainer work on the OSS Quickwit project",
-  			"Participated in on-call rotation and incident response"
-  		],
-  		"url": "https://datadoghq.com",
-  		"location": "Paris, FR",
-  		"skills": [
-  			"React",
-  			"Rust",
-  			"Go",
-  			"Site Reliability Engineering",
-  			"Quickwit",
-  			"agentic coding"
-  		]
-  	},
+		{
+			"name": "DataDog",
+			"position": "Senior Software Engineer",
+			"startDate": "2025-11-01",
+			"summary": "DataDog is a monitoring and observability platform. I worked on the on-premise solution on the full stack ( app / in-house services / on-premise services ).",
+			"highlights": [
+				"Implemented performance and cost saving features across the stack",
+				"Did maintainer work on the OSS Quickwit project",
+				"Participated in on-call rotation and incident response"
+			],
+			"url": "https://datadoghq.com",
+			"location": "Paris, FR",
+			"skills": [
+				"React",
+				"Rust",
+				"Go",
+				"Site Reliability Engineering",
+				"Quickwit",
+				"agentic coding"
+			]
+		},
 		{
 			"name": "Rayon.design",
 			"position": "Senior Software Engineer",
@@ -252,7 +252,7 @@
 				"Wrote a furniture 3d configurator",
 				"Contributed to the public API documentation and examples"
 			],
-			"url": "https://www.wanadevdigital.fr",
+			"url": "https://wanadev.com",
 			"location": "Lyon, FR",
 			"skills": ["Three.js", "Babylon.js", "TypeScript"],
 			"medias": [
